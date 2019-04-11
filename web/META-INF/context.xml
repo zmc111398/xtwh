@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/">
+    <Resource name="jdbc/dataSource"
+              factory="org.apache.naming.factory.BeanFactory"
+              type="com.mchange.v2.c3p0.ComboPooledDataSource"
+              jdbcUrl="jdbc:mysql://localhost:3306/exam?useUnicode=true&characterEncoding=utf8&useSSL=false"
+              driverClass="com.mysql.jdbc.Driver"
+              user="root"
+              password="zxc"
+              acquireIncrement="5"
+              initialPoolSize="10"/>
+</Context>
